@@ -1,6 +1,10 @@
-# About
+---
+layout: page
+title: About
+permalink: /about/
+---
 
-## What is Opus Vitea
+# What is Opus Vitea
 
 The term "opus vitea" would most commonly be translated as "working draft" in English.
 

@@ -1,4 +1,7 @@
 ---
 title: Opus Vitea
-description: A site for a more creative side of me.
+description: None yet.
+url: https://opusvitea.xyz
+twitter_username: martshal
+github_usrname: MKohn42265
 ---
