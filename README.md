@@ -2,6 +2,6 @@
 title: Opus Vitea
 description: None yet.
 url: https://opusvitea.xyz
-twitter_username: martshal
-github_usrname: MKohn42265
+twitter_username: MKohn42265
+github_usrname: martshal
 ---
