@@ -1,6 +1,6 @@
 ---
 title: Opus Vitea
-description: None yet.
+description: Opus Vitea is a landing site for my internet presence.
 url: https://opusvitea.xyz
 twitter_username: MKohn42265
 github_usrname: martshal
