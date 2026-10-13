@@ -1,6 +1,9 @@
 ---
 ---
 
+---
+---
+
 /* Load the Slate theme before applying custom styles. */
 @import "{{ site.theme }}";
 
@@ -14,12 +17,17 @@ body,
   background-color: $eggshell;
 }
 
-/* Give the header and footer the same left-to-right gradient:
-   transparent ("clear") on the left, goldenrod on the right. */
+/* Give the header and footer matching left-to-right gradients. */
 #header_wrap,
 #footer_wrap {
   background-color: $eggshell; /* Fallback if gradients aren't supported. */
   background-image: linear-gradient(to right, transparent, $goldenrod);
+}
+
+/* Right-align the title and its description in the header. */
+#project_title,
+#project_tagline {
+  text-align: right;
 }
 
 /* Make header and footer text black, including headings and links. */
@@ -33,4 +41,3 @@ body,
 #footer_wrap a {
   color: black;
 }
-
