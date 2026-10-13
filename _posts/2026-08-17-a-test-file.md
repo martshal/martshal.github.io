@@ -1,5 +1,5 @@
 ---
-title: 2026-08-17-a-test-file.md
+title: "A Test Post"
 layout: post
 ---
 
