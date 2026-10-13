@@ -1,1 +1,36 @@
+---
+---
+
+/* Load the Slate theme before applying custom styles. */
+@import "{{ site.theme }}";
+
+/* Custom colors used by this stylesheet. */
+$eggshell: #F0EAD6;
+$goldenrod: #ffb200;
+
+/* Set the page and main content background to eggshell. */
+body,
+#main_content_wrap {
+  background-color: $eggshell;
+}
+
+/* Give the header and footer the same left-to-right gradient:
+   transparent ("clear") on the left, goldenrod on the right. */
+#header_wrap,
+#footer_wrap {
+  background-color: $eggshell; /* Fallback if gradients aren't supported. */
+  background-image: linear-gradient(to right, transparent, $goldenrod);
+}
+
+/* Make header and footer text black, including headings and links. */
+#header_wrap,
+#footer_wrap,
+#header_wrap h1,
+#header_wrap h2,
+#header_wrap a,
+#footer_wrap h1,
+#footer_wrap h2,
+#footer_wrap a {
+  color: black;
+}
 
