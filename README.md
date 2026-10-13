@@ -1,4 +1,7 @@
-{% for post in site.posts %}
-  <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-  <p>{{ post.excerpt }}</p>
-{% endfor %}
+---
+title: Opus Vitea
+description: Opus Vitea is a landing site for my internet presence.
+url: https://opusvitea.xyz
+twitter_username: MKohn42265
+github_usrname: martshal
+---
